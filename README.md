@@ -2,8 +2,9 @@
 # python學習相關
 
 ### HOT KEY
- - CTRL + /		：註解
- - CTRL + SHIFT + P：VSCODE 快速功能搜尋指令視窗
+|CTRL + /|註解  |
+|--|--|
+|CTRL + SHIFT + P|VSCODE 快速功能搜尋指令視窗|
 
 ---
 ### VSCODE workspace settings
