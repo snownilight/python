@@ -11,9 +11,9 @@ CREATE TABLE `grade` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='年級';
 
-INSERT INTO demo.grade (name) VALUES
-('一年級'),('二年級'),('三年級'),('四年級'),('五年級'),
-('六年級'),('十年級'),('八年級');
+INSERT INTO demo.grade (id, name) VALUES
+(1,'一年級'),(2,'二年級'),(3,'三年級'),(4,'四年級'),(5,'五年級'),
+(6,'六年級'),(7,'十年級'),(8,'八年級');
 """
 
 # 設定DB連線資訊
