@@ -24,7 +24,7 @@ rightHash = {}
 nowYear = ''
 sameYearDiv = 0
 
-## TODO:last year doesn't append to righthash
+## FIXME:last year doesn't append to righthash
 
 for k, v in hash.items():
     if nowYear != '' and nowYear != k.strftime('%Y'):
